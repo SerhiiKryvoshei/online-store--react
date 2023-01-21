@@ -1,0 +1,130 @@
+import React from "react";
+import classnames from "classnames";
+
+import svgLogo from "../../assets/images/logo.svg";
+import svgHeart from "../../assets/images/heart.svg";
+import svgUser from "../../assets/images/user.svg";
+import svgBasket from "../../assets/images/basket.svg";
+
+import styles from "./Header.module.scss";
+
+const Header = props => {
+	return (
+		<header className={styles.header}>
+			<div className={styles.top}>
+				<div className="container">
+					<div className={styles.inner}>
+						<nav className={styles.menu}>
+							<ul className={styles.menu__list}>
+								<li className={styles.menu__item}>
+									<a className={styles.menu__link} href="#link1">
+										{props.data.link1}
+									</a>
+								</li>
+								<li className={styles.menu__item}>
+									<a className={styles.menu__link} href="#link1">
+										{props.data.link2}
+									</a>
+								</li>
+								<li className={styles.menu__item}>
+									<a className={styles.menu__link} href="#link1">
+										{props.data.link3}
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<a className={styles.logo} href="#logo">
+							<img className={styles.logoImg} src={svgLogo} alt="logo" />
+						</a>
+						<div className={styles.box}>
+							<p className={styles.address}>{props.data.address}</p>
+							<ul className={styles.userList}>
+								<li className={styles.userList__item}>
+									<a className={styles.userList__link} href="#Link11">
+										<img
+											className={styles.userList__pic}
+											src={svgHeart}
+											alt="icon"
+										/>
+									</a>
+								</li>
+								<li className={styles.userList__item}>
+									<a className={styles.userList__link} href="#Link21">
+										<img
+											className={styles.userList__pic}
+											src={svgUser}
+											alt="icon"
+										/>
+									</a>
+								</li>
+								<li className={styles.userList__item}>
+									<a
+										className={classnames(styles.userList__link, styles.basket)}
+										href="#Link31"
+									>
+										<img
+											className={styles.userList__pic}
+											src={svgBasket}
+											alt="icon"
+										/>
+										<p className={styles.basket__num}>
+											{props.data.quantityProduct}
+										</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className={styles.bottom}>
+				<div className="container">
+					<ul className={styles.categories}>
+						<li className={styles.categories__item}>
+							<a className={styles.categories__link} href="#link41">
+								{props.data.categories.link1}
+							</a>
+						</li>
+						<li className={styles.categories__item}>
+							<a className={styles.categories__link} href="#link41">
+								{props.data.categories.link2}
+							</a>
+						</li>
+						<li className={styles.categories__item}>
+							<a className={styles.categories__link} href="#link41">
+								{props.data.categories.link3}
+							</a>
+						</li>
+						<li className={styles.categories__item}>
+							<a className={styles.categories__link} href="#link41">
+								{props.data.categories.link4}
+							</a>
+						</li>
+						<li className={styles.categories__item}>
+							<a className={styles.categories__link} href="#link41">
+								{props.data.categories.link5}
+							</a>
+						</li>
+						<li className={styles.categories__item}>
+							<a className={styles.categories__link} href="#link41">
+								{props.data.categories.link6}
+							</a>
+						</li>
+						<li className={styles.categories__item}>
+							<a className={styles.categories__link} href="#link41">
+								{props.data.categories.link7}
+							</a>
+						</li>
+						<li className={styles.categories__item}>
+							<a className={styles.categories__link} href="#link41">
+								{props.data.categories.link8}
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+	);
+};
+
+export default Header;

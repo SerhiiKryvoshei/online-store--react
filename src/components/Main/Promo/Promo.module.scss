@@ -1,0 +1,122 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins/mixins.scss";
+
+.promo {
+	.inner {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+
+		.slider {
+			max-width: 870px;
+			max-height: 400px;
+			.sliderItem {
+				max-width: 870px;
+				max-height: 400px;
+				user-select: none;
+				.pic {
+					display: block;
+					max-height: 400px;
+					object-fit: cover;
+				}
+			}
+		}
+
+		.promotion {
+			max-width: 265px;
+			text-align: center;
+			border: 1px solid #cdcdcd;
+			border-radius: 3px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			.promotionTop {
+				@include flexBox(space-between, flex-start);
+				.promotionInfo {
+					color: $whiteColor;
+					background-color: $focusColor;
+					padding: 8px 20px;
+					text-transform: uppercase;
+					font-size: 12px;
+					line-height: 1.2;
+					letter-spacing: 0.1em;
+				}
+			}
+
+			.promotionPic {
+				max-width: 125px;
+				margin: 0 auto;
+				object-fit: contain;
+			}
+			.promotionTitle {
+				font-family: "SFProDisplay";
+				font-style: normal;
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 1.2;
+				text-align: center;
+				color: $mainTextColor;
+				padding-bottom: 7px;
+			}
+			.promotionFooter {
+				background-color: $bgBasic;
+				padding: 25px 20px;
+				font-size: 18px;
+				span {
+					display: block;
+					color: $focusColor;
+					font-family: "Barlow";
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
+
+.promotionPrice {
+	font-family: "Barlow";
+	font-style: normal;
+	line-height: 1.2;
+	text-align: right;
+
+	.priceNew {
+		font-weight: 700;
+		font-size: 27px;
+		color: $focusColor;
+		margin-right: 6px;
+		padding-right: 20px;
+		position: relative;
+		&::after {
+			content: "";
+			background-image: url(../../../assets/images/hryvnia/uahsign-blue.svg);
+			position: absolute;
+			right: 0;
+			top: 8px;
+			width: 15px;
+			height: 18px;
+		}
+	}
+
+	.priceOld {
+		font-weight: 400;
+		font-size: 14px;
+		color: $grayColor;
+		margin-right: 6px;
+		padding-right: 20px;
+		position: relative;
+		background-image: url("../../../assets/images/line.svg");
+		background-repeat: no-repeat;
+		display: inline-block;
+
+		&::after {
+			content: "";
+			background-image: url("../../../assets/images/hryvnia/uahsign-gray.svg");
+			position: absolute;
+			right: 4px;
+			top: 0;
+			width: 10px;
+			height: 100%;
+		}
+	}
+}

@@ -1,0 +1,41 @@
+.mySwiper {
+	position: relative;
+	/* padding-top: 50px; */
+}
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin: 0 auto;
+}
+
+.swiper-button-prev {
+	/* position: absolute;
+	top: 15px;
+	left: 50%;
+	transform: translate(-38px);
+	cursor: pointer; */
+	color: #fff;
+}
+
+.swiper-button-next {
+	/* position: absolute;
+	top: 15px;
+	left: 50%;
+	transform: translate(12px);
+	cursor: pointer; */
+	color: #fff;
+}
+
+/* custmm bullets style */
+.swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+	border: 2px solid #fff;
+	background-color: transparent;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #fff;
+}

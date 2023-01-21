@@ -1,0 +1,115 @@
+@import "../../scss/variables.scss";
+@import "../../scss/mixins/mixins.scss";
+
+.header {
+	padding-top: 25px;
+	.top {
+		font-family: "SFProDisplay";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 1.2;
+		.inner {
+			@include flexBox(space-between, center);
+
+			.box {
+				@include flex-v-center;
+				.address {
+					padding-right: 60px;
+					padding-left: 30px;
+					width: 295px;
+					position: relative;
+					&::before {
+						content: "";
+						position: absolute;
+						background-image: url("../../assets/images/address-icon.svg");
+						background-repeat: no-repeat;
+						background-position: center;
+						width: 30px;
+						height: 30px;
+						left: 0;
+						bottom: 4px;
+					}
+				}
+				.userList {
+					padding-right: 15px;
+					@include flex-v-center;
+				}
+			}
+		}
+	}
+	.bottom {
+		margin-bottom: 78px;
+		.categories {
+			background-color: $bgBasic;
+			@include flexBox(space-around, center);
+			width: 100%;
+			min-height: 53px;
+
+			.categories__item {
+				position: relative;
+
+				.categories__link {
+					padding: 15px 0 14px;
+					transition: all 0.3s;
+					// position: absolute;
+					// top: 50%;
+					// left: 50%;
+					// transform: translate(-50%, -50%);
+					position: relative;
+				}
+				::before {
+					content: "";
+					position: absolute;
+					width: 0;
+					left: auto;
+					right: 0;
+					bottom: -2px;
+					height: 3px;
+					background-color: $focusColor;
+					transition: all 0.3s;
+				}
+				:hover {
+					// font-weight: 600;
+					color: #000;
+					&::before {
+						width: 100%;
+						left: 0;
+						right: auto;
+					}
+				}
+			}
+		}
+	}
+}
+
+.menu {
+	.menu__list {
+		.menu__item {
+			display: inline-block;
+			&:not(:last-child) {
+				padding-right: 50px;
+			}
+		}
+	}
+}
+
+.basket {
+	position: relative;
+
+	.basket__num {
+		position: absolute;
+		font-family: "SFProDisplay";
+		font-weight: 500;
+		font-size: 10px;
+		line-height: 2;
+		width: 20px;
+		height: 20px;
+		color: $whiteColor;
+		background-color: $focusColor;
+		border-radius: 50%;
+		text-align: center;
+		bottom: 0;
+		right: -15px;
+	}
+}
