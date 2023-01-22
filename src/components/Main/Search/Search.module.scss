@@ -1,0 +1,74 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins/mixins.scss";
+
+.search {
+	margin-bottom: 80px;
+}
+
+.blockTabs {
+	padding-bottom: 25px;
+	.tabs {
+		display: inline-block;
+		font-weight: 400;
+		font-size: 20px;
+		color: $mainTextColor;
+		padding: 11px 26px 12px;
+		text-align: center;
+	}
+	.activeTabs {
+		background-color: $bgBasic;
+		border-radius: 5px;
+		font-weight: 700;
+		font-size: 20px;
+		text-align: center;
+		color: $mainTextColor;
+		border-bottom: 1px solid transparent;
+	}
+}
+
+.contentTabs {
+	.content {
+		font-family: "SFProDisplay";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		color: $textPlaceholder;
+		background-color: $bgBasic;
+		border-radius: 3px;
+		display: none;
+	}
+	.activeContent {
+		display: block;
+	}
+	.contentForm {
+		display: flex;
+		justify-content: space-between;
+		input {
+			width: 100%;
+			font-size: 16px;
+			border: none;
+			padding: 5px 20px;
+			margin-right: 1px;
+			border-radius: 3px;
+			background-color: $bgBasic;
+			::placeholder {
+				color: $textPlaceholder;
+			}
+			&:focus {
+				outline: none;
+				border: 1px solid $grayColor;
+			}
+		}
+		button {
+			font-weight: 700;
+			font-size: 14px;
+			letter-spacing: 0.12em;
+			color: $whiteColor;
+			text-transform: uppercase;
+			background: $focusColor;
+			border-radius: 3px;
+			border: none;
+			padding: 17px 40px;
+		}
+	}
+}

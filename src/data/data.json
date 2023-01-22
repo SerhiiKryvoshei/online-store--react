@@ -24,6 +24,15 @@
 			"title": "Човновий мотор Suzuki DF9.9BRS",
 			"footer": "Акція діє до",
 			"date": "31.03.2023"
+		},
+		"Search": {
+			"nameFirst": "Пошук за номером",
+			"placeholderFirst": "Введіть номер",
+			"nameSecond": "Пошук за маркою",
+			"placeholderSecond": "Введіть марку",
+			"nameThird": "Пошук за назвою товару",
+			"placeholderThird": "Введіть назву товару",
+			"nameButton": "Знайти"
 		}
 	}
 }
