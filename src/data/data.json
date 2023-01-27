@@ -33,6 +33,15 @@
 			"nameThird": "Пошук за назвою товару",
 			"placeholderThird": "Введіть назву товару",
 			"nameButton": "Знайти"
+		},
+		"Categories": {
+			"text": "Детальніше",
+			"nameFirst": "Квадроцикли",
+			"nameSecond": "Гідроцикли",
+			"nameThird": "Катери",
+			"nameFourth": "Снігоходи",
+			"nameFifth": "Всюдиходи",
+			"nameSixth": "Двигатели"
 		}
 	}
 }
