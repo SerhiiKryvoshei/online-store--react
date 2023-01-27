@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-store--react/static/css/main.bde0f2bb.css",
-    "main.js": "/online-store--react/static/js/main.d4df6b10.js",
+    "main.css": "/online-store--react/static/css/main.330e3d47.css",
+    "main.js": "/online-store--react/static/js/main.b8a1b1b2.js",
     "static/media/banner01.jpg": "/online-store--react/static/media/banner01.e257ce7c28ee5d528908.jpg",
     "static/media/banner03.jpg": "/online-store--react/static/media/banner03.1874ccfddc04d5aa2e1a.jpg",
     "static/media/SFProDisplay-Semibold.woff": "/online-store--react/static/media/SFProDisplay-Semibold.340c3a1a6dddb0b99476.woff",
@@ -24,6 +24,11 @@
     "static/media/Barlow-Bold.woff": "/online-store--react/static/media/Barlow-Bold.ac58d1fa5577fc437c27.woff",
     "static/media/Barlow-Regular.woff": "/online-store--react/static/media/Barlow-Regular.5f7c21ced8e637ed7d0f.woff",
     "static/media/Barlow-Medium.woff": "/online-store--react/static/media/Barlow-Medium.ba73bccffda2985b1acd.woff",
+    "static/media/categories01.png": "/online-store--react/static/media/categories01.6e116cd57cd6ab6b4970.png",
+    "static/media/categories04.png": "/online-store--react/static/media/categories04.c056ca28e7a4806f5938.png",
+    "static/media/categories03.png": "/online-store--react/static/media/categories03.06b0bfb495950491b740.png",
+    "static/media/categories05.png": "/online-store--react/static/media/categories05.cb29cc2c3fb7efeb57b3.png",
+    "static/media/categories02.png": "/online-store--react/static/media/categories02.39aac16fc5c9b23e880e.png",
     "static/media/product0001.png": "/online-store--react/static/media/product0001.1a8eddf692b1a4172e00.png",
     "static/media/logo.svg": "/online-store--react/static/media/logo.b881d55aaa16e1db983d7fa55fd488d8.svg",
     "static/media/address-icon.svg": "/online-store--react/static/media/address-icon.f9b0c31b54cdc06a3b61.svg",
@@ -31,14 +36,15 @@
     "static/media/uahsign-gray.svg": "/online-store--react/static/media/uahsign-gray.473227dd0c8210752920.svg",
     "index.html": "/online-store--react/index.html",
     "static/media/basket.svg": "/online-store--react/static/media/basket.030ec2698842ed365a8c3aeec3cec89d.svg",
+    "static/media/back.svg": "/online-store--react/static/media/back.743126514a018f701dac.svg",
     "static/media/heart.svg": "/online-store--react/static/media/heart.75355df46857fd0012a7553164919e57.svg",
     "static/media/user.svg": "/online-store--react/static/media/user.95b79df76425f176ab324f413d400655.svg",
     "static/media/line.svg": "/online-store--react/static/media/line.def46be32adbe1713a7b.svg",
-    "main.bde0f2bb.css.map": "/online-store--react/static/css/main.bde0f2bb.css.map",
-    "main.d4df6b10.js.map": "/online-store--react/static/js/main.d4df6b10.js.map"
+    "main.330e3d47.css.map": "/online-store--react/static/css/main.330e3d47.css.map",
+    "main.b8a1b1b2.js.map": "/online-store--react/static/js/main.b8a1b1b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.bde0f2bb.css",
-    "static/js/main.d4df6b10.js"
+    "static/css/main.330e3d47.css",
+    "static/js/main.b8a1b1b2.js"
   ]
 }
