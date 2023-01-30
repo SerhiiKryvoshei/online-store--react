@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-store--react/static/css/main.330e3d47.css",
-    "main.js": "/online-store--react/static/js/main.b8a1b1b2.js",
+    "main.css": "/online-store--react/static/css/main.bc5884c5.css",
+    "main.js": "/online-store--react/static/js/main.e1649f51.js",
     "static/media/banner01.jpg": "/online-store--react/static/media/banner01.e257ce7c28ee5d528908.jpg",
     "static/media/banner03.jpg": "/online-store--react/static/media/banner03.1874ccfddc04d5aa2e1a.jpg",
     "static/media/SFProDisplay-Semibold.woff": "/online-store--react/static/media/SFProDisplay-Semibold.340c3a1a6dddb0b99476.woff",
@@ -24,14 +24,33 @@
     "static/media/Barlow-Bold.woff": "/online-store--react/static/media/Barlow-Bold.ac58d1fa5577fc437c27.woff",
     "static/media/Barlow-Regular.woff": "/online-store--react/static/media/Barlow-Regular.5f7c21ced8e637ed7d0f.woff",
     "static/media/Barlow-Medium.woff": "/online-store--react/static/media/Barlow-Medium.ba73bccffda2985b1acd.woff",
+    "static/media/jetSkis11.png": "/online-store--react/static/media/jetSkis11.07ce0f4aab9df97f2d3b.png",
+    "static/media/jetSkis07.png": "/online-store--react/static/media/jetSkis07.4abf06b58b6af143f2d9.png",
+    "static/media/jetSkis09.png": "/online-store--react/static/media/jetSkis09.20862c092a248f18cb97.png",
+    "static/media/jetSkis08.png": "/online-store--react/static/media/jetSkis08.cc72f4c009a5034874ff.png",
+    "static/media/jetSkis01.png": "/online-store--react/static/media/jetSkis01.a1af49b0374498b45e10.png",
+    "static/media/jetSkis02.png": "/online-store--react/static/media/jetSkis02.70b1eea5e7b9c64edaf7.png",
+    "static/media/jetSkis03.png": "/online-store--react/static/media/jetSkis03.e03a401b298b707f3a5d.png",
+    "static/media/jetSkis00.png": "/online-store--react/static/media/jetSkis00.8ec2e239dad19e8d6b57.png",
+    "static/media/part04.png": "/online-store--react/static/media/part04.79668f3b9d240df5bfa6.png",
+    "static/media/jetSkis04.png": "/online-store--react/static/media/jetSkis04.8d2166634ef314147911.png",
+    "static/media/jetSkis06.png": "/online-store--react/static/media/jetSkis06.efb0aaa63cfa6335faaa.png",
+    "static/media/jetSkis10.png": "/online-store--react/static/media/jetSkis10.9b815fde778d25ef12ca.png",
+    "static/media/jetSkis05.png": "/online-store--react/static/media/jetSkis05.131a8602640f7e20e426.png",
+    "static/media/part02.png": "/online-store--react/static/media/part02.5fd1b169cf427902cb45.png",
+    "static/media/part01.png": "/online-store--react/static/media/part01.46c6bbb130d1f34e9823.png",
     "static/media/categories01.png": "/online-store--react/static/media/categories01.6e116cd57cd6ab6b4970.png",
     "static/media/categories04.png": "/online-store--react/static/media/categories04.c056ca28e7a4806f5938.png",
     "static/media/categories03.png": "/online-store--react/static/media/categories03.06b0bfb495950491b740.png",
+    "static/media/part03.png": "/online-store--react/static/media/part03.67d82556733531f6d4be.png",
     "static/media/categories05.png": "/online-store--react/static/media/categories05.cb29cc2c3fb7efeb57b3.png",
     "static/media/categories02.png": "/online-store--react/static/media/categories02.39aac16fc5c9b23e880e.png",
     "static/media/product0001.png": "/online-store--react/static/media/product0001.1a8eddf692b1a4172e00.png",
     "static/media/logo.svg": "/online-store--react/static/media/logo.b881d55aaa16e1db983d7fa55fd488d8.svg",
+    "static/media/facebook.svg": "/online-store--react/static/media/facebook.cd8c3214f787370a9310ff21f4d17471.svg",
     "static/media/address-icon.svg": "/online-store--react/static/media/address-icon.f9b0c31b54cdc06a3b61.svg",
+    "static/media/instagram.svg": "/online-store--react/static/media/instagram.ebfc084a64999d85fb27b29c7f8dd292.svg",
+    "static/media/youtube.svg": "/online-store--react/static/media/youtube.3d540ac7035bc09597294d8a84bd5d01.svg",
     "static/media/uahsign-blue.svg": "/online-store--react/static/media/uahsign-blue.53e1685b7d30e3597ceb.svg",
     "static/media/uahsign-gray.svg": "/online-store--react/static/media/uahsign-gray.473227dd0c8210752920.svg",
     "index.html": "/online-store--react/index.html",
@@ -40,11 +59,11 @@
     "static/media/heart.svg": "/online-store--react/static/media/heart.75355df46857fd0012a7553164919e57.svg",
     "static/media/user.svg": "/online-store--react/static/media/user.95b79df76425f176ab324f413d400655.svg",
     "static/media/line.svg": "/online-store--react/static/media/line.def46be32adbe1713a7b.svg",
-    "main.330e3d47.css.map": "/online-store--react/static/css/main.330e3d47.css.map",
-    "main.b8a1b1b2.js.map": "/online-store--react/static/js/main.b8a1b1b2.js.map"
+    "main.bc5884c5.css.map": "/online-store--react/static/css/main.bc5884c5.css.map",
+    "main.e1649f51.js.map": "/online-store--react/static/js/main.e1649f51.js.map"
   },
   "entrypoints": [
-    "static/css/main.330e3d47.css",
-    "static/js/main.b8a1b1b2.js"
+    "static/css/main.bc5884c5.css",
+    "static/js/main.e1649f51.js"
   ]
 }
