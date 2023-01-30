@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import classnames from "classnames";
 
 import svgLogo from "../../assets/images/logo.svg";
@@ -17,25 +19,25 @@ const Header = props => {
 						<nav className={styles.menu}>
 							<ul className={styles.menu__list}>
 								<li className={styles.menu__item}>
-									<a className={styles.menu__link} href="#link1">
+									<Link className={styles.menu__link} to="/stores">
 										{props.data.link1}
-									</a>
+									</Link>
 								</li>
 								<li className={styles.menu__item}>
-									<a className={styles.menu__link} href="#link1">
+									<Link className={styles.menu__link} to="/stocks">
 										{props.data.link2}
-									</a>
+									</Link>
 								</li>
 								<li className={styles.menu__item}>
-									<a className={styles.menu__link} href="#link1">
+									<Link className={styles.menu__link} to="/shipping">
 										{props.data.link3}
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</nav>
-						<a className={styles.logo} href="#logo">
+						<Link className={styles.logo} to="/">
 							<img className={styles.logoImg} src={svgLogo} alt="logo" />
-						</a>
+						</Link>
 						<div className={styles.box}>
 							<p className={styles.address}>{props.data.address}</p>
 							<ul className={styles.userList}>
@@ -91,7 +93,7 @@ const Header = props => {
 							</a>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="#link41">
+							<a className={styles.categories__link} href="jet-skis">
 								{props.data.categories.link3}
 							</a>
 						</li>

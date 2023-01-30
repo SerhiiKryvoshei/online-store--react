@@ -2,7 +2,71 @@
 @import "../../scss/mixins/mixins.scss";
 
 .footer {
-	padding: 100px 0 80px;
-	// background-color: $blackColor;
-	// color: $whiteColor;
+	padding: 42px 0 27px;
+	background-color: $bgBasic;
+
+	.top {
+		padding-bottom: 46px;
+		.inner {
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+			.item {
+				.title {
+					max-width: 250px;
+					font-weight: 700;
+					font-size: 14px;
+				}
+				.form {
+					margin-top: 34px;
+					display: flex;
+					justify-content: space-between;
+					gap: 1px;
+					.input {
+						border: none;
+						font-weight: 400;
+						font-size: 14px;
+						padding: 0 12px;
+						&::placeholder {
+							color: #c4c4c4;
+						}
+					}
+					.btn {
+						font-weight: 600;
+						font-size: 11px;
+						letter-spacing: 0.12em;
+						text-transform: uppercase;
+						background-color: #1c62cd;
+						color: #ffffff;
+						border: none;
+						padding: 10px 16px;
+					}
+				}
+				.list {
+					font-weight: 700;
+					font-size: 14px;
+					line-height: 1.4;
+					.list-item {
+						font-weight: 400;
+						font-size: 14px;
+					}
+				}
+				.social {
+					display: flex;
+					height: 100%;
+					justify-content: center;
+					align-items: center;
+					gap: 30px;
+					padding-right: 70px;
+				}
+			}
+		}
+	}
+
+	.bottom {
+		display: flex;
+		justify-content: center;
+		gap: 80px;
+		font-size: 10px;
+	}
 }

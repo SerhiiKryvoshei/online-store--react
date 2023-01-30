@@ -1,0 +1,28 @@
+@import "../../scss/variables.scss";
+@import "../../scss/fonts.scss";
+@import "../../scss/mixins/mixins.scss";
+
+.card {
+	max-width: 270px;
+
+	.title {
+		font-size: 18px;
+		text-align: center;
+	}
+	.price {
+		text-align: center;
+		margin: 23px 0;
+		position: relative;
+		&::after {
+			content: "";
+			background-image: url(../../assets/images/hryvnia/uahsign-blue.svg);
+			position: absolute;
+			width: 15px;
+			height: 18px;
+		}
+	}
+	button {
+		border: none;
+		background-color: inherit;
+	}
+}

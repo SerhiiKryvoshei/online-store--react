@@ -1,0 +1,33 @@
+@import "../../../scss/variables.scss";
+@import "../../../scss/mixins/mixins.scss";
+
+.products {
+	margin-bottom: 80px;
+
+	.inner {
+		.block-tabs {
+			display: flex;
+			gap: 10px;
+
+			.tabs {
+				.tab {
+					font-family: "SFProDisplay";
+					font-style: normal;
+					font-weight: 400;
+					font-size: 15px;
+					text-align: center;
+					color: $mainTextColor;
+				}
+			}
+		}
+
+		.tabs-content {
+			.tab-content {
+				display: none;
+			}
+			.active-content {
+				display: block;
+			}
+		}
+	}
+}

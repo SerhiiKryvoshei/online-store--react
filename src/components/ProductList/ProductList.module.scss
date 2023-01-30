@@ -1,0 +1,13 @@
+@import "../../scss/variables.scss";
+@import "../../scss/fonts.scss";
+@import "../../scss/mixins/mixins.scss";
+
+.list {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding-bottom: 80px;
+	padding-left: 250px;
+}
