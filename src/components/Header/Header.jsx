@@ -93,7 +93,7 @@ const Header = props => {
 							</a>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="jet-skis">
+							<a className={styles.categories__link} href="jetskis">
 								{props.data.categories.link3}
 							</a>
 						</li>

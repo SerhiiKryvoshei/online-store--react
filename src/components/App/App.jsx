@@ -23,10 +23,7 @@ function App() {
 					<Route path="stores" element={<JetSkis />} />
 					<Route path="stocks" element={<Search data={data.Main.Search} />} />
 					<Route path="shipping" element={<ErrorPage />} />
-					<Route
-						path="jet-skis"
-						element={<JetSkis data={products.jetSkis} />}
-					/>
+					<Route path="jetskis" element={<JetSkis data={products.jetSkis} />} />
 					<Route path="*" element={<ErrorPage />} />
 				</Route>
 			</Routes>
