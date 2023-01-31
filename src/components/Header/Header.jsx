@@ -93,9 +93,9 @@ const Header = props => {
 							</a>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="jetskis">
+							<Link className={styles.categories__link} to="jet-skis">
 								{props.data.categories.link3}
-							</a>
+							</Link>
 						</li>
 						<li className={styles.categories__item}>
 							<a className={styles.categories__link} href="#link41">
