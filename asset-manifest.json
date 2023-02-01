@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-store--react/static/css/main.41824a1b.css",
-    "main.js": "/online-store--react/static/js/main.da6d5050.js",
+    "main.css": "/online-store--react/static/css/main.701cb867.css",
+    "main.js": "/online-store--react/static/js/main.bb7938bc.js",
     "static/media/banner01.jpg": "/online-store--react/static/media/banner01.e257ce7c28ee5d528908.jpg",
     "static/media/banner03.jpg": "/online-store--react/static/media/banner03.1874ccfddc04d5aa2e1a.jpg",
     "static/media/SFProDisplay-Semibold.woff": "/online-store--react/static/media/SFProDisplay-Semibold.340c3a1a6dddb0b99476.woff",
@@ -70,11 +70,11 @@
     "static/media/heart.svg": "/online-store--react/static/media/heart.75355df46857fd0012a7553164919e57.svg",
     "static/media/user.svg": "/online-store--react/static/media/user.95b79df76425f176ab324f413d400655.svg",
     "static/media/line.svg": "/online-store--react/static/media/line.def46be32adbe1713a7b.svg",
-    "main.41824a1b.css.map": "/online-store--react/static/css/main.41824a1b.css.map",
-    "main.da6d5050.js.map": "/online-store--react/static/js/main.da6d5050.js.map"
+    "main.701cb867.css.map": "/online-store--react/static/css/main.701cb867.css.map",
+    "main.bb7938bc.js.map": "/online-store--react/static/js/main.bb7938bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.41824a1b.css",
-    "static/js/main.da6d5050.js"
+    "static/css/main.701cb867.css",
+    "static/js/main.bb7938bc.js"
   ]
 }
