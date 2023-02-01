@@ -5,7 +5,7 @@ import styles from "./JetSkis.module.scss";
 
 const JetSkis = props => {
 	if (props.data.length === 0) {
-		return <h5>Sorry, no JetSkis search.</h5>;
+		return <p className="error-title">Sorry, no JetSkis search.</p>;
 	}
 	return (
 		<div>

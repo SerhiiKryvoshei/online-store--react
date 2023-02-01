@@ -9,7 +9,7 @@ export const ProductCard = props => {
 	return (
 		<div className={styles.card}>
 			{/* <p className={styles["hover-text"]}>подивитися товар</p> */}
-			<img src={props.product.img} alt="" />
+			<img className={styles.pic} src={props.product.img} alt="" />
 			<p className={styles.title}>{props.product.title}</p>
 			<p className={styles.price}>{props.product.price}</p>
 			<button

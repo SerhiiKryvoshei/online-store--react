@@ -24,6 +24,30 @@ import quadBikeImg10 from "../assets/images/products/quad-bike/quad-bike10.jpg";
 import quadBikeImg11 from "../assets/images/products/quad-bike/quad-bike11.jpg";
 import quadBikeImg12 from "../assets/images/products/quad-bike/quad-bike12.jpg";
 
+import boatImg01 from "../assets/images/products/boats/boat01.jpg";
+import boatImg02 from "../assets/images/products/boats/boat02.jpg";
+import boatImg03 from "../assets/images/products/boats/boat03.jpg";
+
+import speedboatImg01 from "../assets/images/products/speedboats/speedboat01.webp";
+import speedboatImg02 from "../assets/images/products/speedboats/speedboat02.webp";
+import speedboatImg03 from "../assets/images/products/speedboats/speedboat03.webp";
+import speedboatImg04 from "../assets/images/products/speedboats/speedboat04.webp";
+import speedboatImg05 from "../assets/images/products/speedboats/speedboat05.jpg";
+
+import roverImg01 from "../assets/images/products/rovers/rover01.webp";
+import roverImg02 from "../assets/images/products/rovers/rover02.webp";
+import roverImg03 from "../assets/images/products/rovers/rover03.png";
+import roverImg04 from "../assets/images/products/rovers/rover04.png";
+
+import snowshoesImg01 from "../assets/images/products/snowshoes/snowshoes01.png";
+import snowshoesImg02 from "../assets/images/products/snowshoes/snowshoes02.png";
+import snowshoesImg03 from "../assets/images/products/snowshoes/snowshoes03.jpg";
+
+import motorImg01 from "../assets/images/products/motors/motor01.jpg";
+import motorImg02 from "../assets/images/products/motors/motor02.jpg";
+import motorImg03 from "../assets/images/products/motors/motor03.jpg";
+import motorImg04 from "../assets/images/products/motors/motor04.jpg";
+
 export const products = {
 	jetSkis: [
 		{
@@ -197,10 +221,153 @@ export const products = {
 			img: quadBikeImg12,
 		},
 	],
-	boats: [],
-	speedboats: [],
-	rovers: [],
-	snowshoes: [],
-	motors: [],
+	boats: [
+		{
+			id: 0,
+			inStock: true,
+			title: "Надувна байдарка-двійка ZRay Drift 2 14'X32",
+			price: 23110,
+			img: boatImg01,
+		},
+		{
+			id: 1,
+			inStock: true,
+			title:
+				"Каркасна одномісна байдарка Neris Valkure-1 Standart Каркасна одномісна байдарка Neris Valkure-1 Standart",
+			price: 20800,
+			img: boatImg02,
+		},
+		{
+			id: 2,
+			inStock: true,
+			title: "Каяк Blaze",
+			price: 24288,
+			img: boatImg03,
+		},
+	],
+	speedboats: [
+		{
+			id: 0,
+			inStock: true,
+			title:
+				"SX190 Fun Starts Here. Single 4-cylinder, 4-stroke, 1.8 Liter High Output Yamaha Marine Engine",
+			price: 1424000,
+			img: speedboatImg01,
+		},
+		{
+			id: 1,
+			inStock: true,
+			title:
+				"AR190 Watersports Fun and Excellent Value. Single 4-cylinder, 4-stroke, 1.8 Liter",
+			price: 1540000,
+			img: speedboatImg02,
+		},
+		{
+			id: 2,
+			inStock: true,
+			title:
+				"AR195 Supercharge Your Watersports. Single Supercharged 4-cylinder, 4-stroke, Super Vortex",
+			price: 1804000,
+			img: speedboatImg03,
+		},
+		{
+			id: 3,
+			inStock: true,
+			title:
+				"195S Refined Style Meets Sports Performance. Single Supercharged 4-cylinder, 4-stroke, Super",
+			price: 1900000,
+			img: speedboatImg04,
+		},
+		{
+			id: 4,
+			inStock: true,
+			title: "Yamaha 222 FSH Sport E",
+			price: 2932000,
+			img: speedboatImg05,
+		},
+	],
+	rovers: [
+		{
+			id: 0,
+			inStock: true,
+			title: "Мотовсюдихід Yamaha Wolverine RMAX 2 1000 SE",
+			price: 962500,
+			img: roverImg01,
+		},
+		{
+			id: 1,
+			inStock: true,
+			title: "Мотовсюдихід Yamaha Wolverine RMAX 4 1000",
+			price: 997150,
+			img: roverImg02,
+		},
+		{
+			id: 2,
+			inStock: true,
+			title: "MY23 COMMANDER MAX XT-P 1000R",
+			price: 980000,
+			img: roverImg03,
+		},
+		{
+			id: 3,
+			inStock: true,
+			title: "Maverick MAX X RS SAS TurboRR",
+			price: 1458000,
+			img: roverImg04,
+		},
+	],
+	snowshoes: [
+		{
+			id: 0,
+			inStock: true,
+			title: "Снігохід EXPEDITION SE 900 ACE TURBO (650W) ES STUDDED TRACK VIP",
+			price: 806000,
+			img: snowshoesImg01,
+		},
+		{
+			id: 1,
+			inStock: true,
+			title: "Електро Gekkon Snow 1300W Снігохід (Снігоцикл)",
+			price: 23375,
+			img: snowshoesImg02,
+		},
+		{
+			id: 2,
+			inStock: false,
+			title: "Mikro Snow Снігохід (Снігоцикл) ",
+			price: 0,
+			img: snowshoesImg03,
+		},
+	],
+	motors: [
+		{
+			id: 0,
+			inStock: true,
+			title: "Човновий мотор Tohatsu MFS30CS",
+			price: 114521,
+			img: motorImg01,
+		},
+		{
+			id: 1,
+			inStock: true,
+			title: "Човновий мотор Tohatsu TM25HS",
+			price: 79721,
+			img: motorImg02,
+		},
+		{
+			id: 2,
+			inStock: true,
+			title: "Човновий мотор Tohatsu MFS40A ETL",
+			price: 198650,
+			img: motorImg03,
+		},
+		{
+			id: 3,
+			inStock: true,
+			title: "Човновий мотор Tohatsu TM2.5A2S",
+			price: 4968,
+			img: motorImg04,
+		},
+	],
 	spares: [],
 };
