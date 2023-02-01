@@ -83,14 +83,14 @@ const Header = props => {
 				<div className="container">
 					<ul className={styles.categories}>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="#link41">
+							<Link className={styles.categories__link} to="quad-bike">
 								{props.data.categories.link1}
-							</a>
+							</Link>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="#link41">
+							<Link className={styles.categories__link} to="speedboats">
 								{props.data.categories.link2}
-							</a>
+							</Link>
 						</li>
 						<li className={styles.categories__item}>
 							<Link className={styles.categories__link} to="jet-skis">
@@ -98,9 +98,9 @@ const Header = props => {
 							</Link>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="#link41">
-								{props.data.categories.link4}
-							</a>
+							<Link className={styles.categories__link} to="boats">
+								{props.data.categories.link2}
+							</Link>
 						</li>
 						<li className={styles.categories__item}>
 							<a className={styles.categories__link} href="#link41">

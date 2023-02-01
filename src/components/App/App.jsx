@@ -5,7 +5,12 @@ import { products } from "../../data/productList";
 import Loyout from "../Loyout/Loyout";
 
 import HomePage from "../Pages/HomePage";
+
+import SpeedBoats from "../Pages/SpeedBoats";
+import QuadBike from "../Pages/QuadBike";
+import Boats from "../Pages/Boats";
 import JetSkis from "../Pages/JetSkis";
+
 import ErrorPage from "../Pages/ErrorPage";
 
 import Search from "../Main/Search/Search";
@@ -24,9 +29,19 @@ function App() {
 					<Route path="/stocks" element={<Search data={data.Main.Search} />} />
 					<Route path="/shipping" element={<ErrorPage />} />
 					<Route
+						path="/quad-bike"
+						element={<QuadBike data={products.quadBike} />}
+					/>
+					<Route
+						path="/speedboats"
+						element={<SpeedBoats data={products.speedboats} />}
+					/>
+					<Route
 						path="/jet-skis"
 						element={<JetSkis data={products.jetSkis} />}
 					/>
+					<Route path="/boats" element={<Boats data={products.boats} />} />
+
 					<Route path="*" element={<ErrorPage />} />
 				</Route>
 			</Routes>

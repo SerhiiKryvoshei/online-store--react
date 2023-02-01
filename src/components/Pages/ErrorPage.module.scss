@@ -1,0 +1,20 @@
+@import "../../scss/variables.scss";
+@import "../../scss/fonts.scss";
+
+.inner {
+	padding-bottom: 40px;
+	text-align: center;
+	.title {
+		font-weight: 600;
+		font-size: 30px;
+	}
+	.text {
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.link-home {
+		padding: 20px;
+		font-weight: 500;
+		font-size: 24px;
+	}
+}
