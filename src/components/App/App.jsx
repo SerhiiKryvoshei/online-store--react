@@ -5,11 +5,14 @@ import { products } from "../../data/productList";
 import Loyout from "../Loyout/Loyout";
 
 import HomePage from "../Pages/HomePage";
-
-import SpeedBoats from "../Pages/SpeedBoats";
 import QuadBike from "../Pages/QuadBike";
-import Boats from "../Pages/Boats";
+import SpeedBoats from "../Pages/SpeedBoats";
 import JetSkis from "../Pages/JetSkis";
+import Boats from "../Pages/Boats";
+import Rovers from "../Pages/Rovers";
+import Snowshoes from "../Pages/Snowshoes";
+import Motors from "../Pages/Motors";
+import Spares from "../Pages/Spares";
 
 import ErrorPage from "../Pages/ErrorPage";
 
@@ -41,7 +44,13 @@ function App() {
 						element={<JetSkis data={products.jetSkis} />}
 					/>
 					<Route path="/boats" element={<Boats data={products.boats} />} />
-
+					<Route path="/rovers" element={<Rovers data={products.rovers} />} />
+					<Route
+						path="/snowshoes"
+						element={<Snowshoes data={products.snowshoes} />}
+					/>
+					<Route path="/motors" element={<Motors data={products.motors} />} />
+					<Route path="/spares" element={<Spares data={products.spares} />} />
 					<Route path="*" element={<ErrorPage />} />
 				</Route>
 			</Routes>

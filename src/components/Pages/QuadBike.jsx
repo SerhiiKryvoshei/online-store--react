@@ -5,7 +5,7 @@ import styles from "./QuadBike.module.scss";
 
 const QuadBike = props => {
 	if (props.data.length === 0) {
-		return <h5>Sorry, no quad bike search.</h5>;
+		return <p className="error-title">Sorry, no quad bike search.</p>;
 	}
 	return (
 		<div>

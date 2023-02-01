@@ -99,28 +99,28 @@ const Header = props => {
 						</li>
 						<li className={styles.categories__item}>
 							<Link className={styles.categories__link} to="boats">
-								{props.data.categories.link2}
+								{props.data.categories.link4}
 							</Link>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="#link41">
+							<Link className={styles.categories__link} to="rovers">
 								{props.data.categories.link5}
-							</a>
+							</Link>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="#link41">
+							<Link className={styles.categories__link} to="snowshoes">
 								{props.data.categories.link6}
-							</a>
+							</Link>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="#link41">
+							<Link className={styles.categories__link} to="motors">
 								{props.data.categories.link7}
-							</a>
+							</Link>
 						</li>
 						<li className={styles.categories__item}>
-							<a className={styles.categories__link} href="#link41">
+							<Link className={styles.categories__link} to="spares">
 								{props.data.categories.link8}
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>

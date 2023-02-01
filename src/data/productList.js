@@ -199,4 +199,8 @@ export const products = {
 	],
 	boats: [],
 	speedboats: [],
+	rovers: [],
+	snowshoes: [],
+	motors: [],
+	spares: [],
 };
