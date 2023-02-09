@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 // import classNames from "classnames";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 
 import banner01Img from "../../../assets/images/banner/banner01.jpg";
 import banner02Img from "../../../assets/images/banner/banner02.jpg";
@@ -21,7 +21,7 @@ import "swiper/css/pagination";
 import styles from "./Promo.module.scss";
 import "./slider.css";
 
-const PromoItem = props => {
+const PromoItem = (props) => {
 	return (
 		<div className={styles.sliderItem}>
 			<img className={styles.pic} src={props.img} alt="blog pic" />
@@ -29,23 +29,32 @@ const PromoItem = props => {
 	);
 };
 
-const Promo = props => {
-	const pagination = {
-		clickable: true,
+const Promo = (props) => {
+	const progressCircle = useRef(null);
+	const progressContent = useRef(null);
+	const onAutoplayTimeLeft = (s, time, progress) => {
+		progressCircle.current.style.setProperty("--progress", 1 - progress);
+		progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
 	};
+
 	return (
 		<section className={styles.promo}>
 			<div className="container">
 				<div className={styles.inner}>
 					<div className={styles.slider}>
 						<Swiper
-							cssMode={true}
+							spaceBetween={30}
+							centeredSlides={true}
+							autoplay={{
+								delay: 7000,
+								disableOnInteraction: false,
+							}}
+							pagination={{
+								clickable: true,
+							}}
 							navigation={true}
-							// pagination={true}
-							pagination={pagination}
-							mousewheel={true}
-							keyboard={true}
-							modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+							modules={[Autoplay, Pagination, Navigation]}
+							onAutoplayTimeLeft={onAutoplayTimeLeft}
 							className="mySwiper"
 						>
 							<SwiperSlide>
@@ -66,6 +75,12 @@ const Promo = props => {
 							<SwiperSlide>
 								<PromoItem img={banner06Img} />
 							</SwiperSlide>
+							<div className="autoplay-progress" slot="container-end">
+								<svg viewBox="0 0 48 48" ref={progressCircle}>
+									<circle cx="24" cy="24" r="20"></circle>
+								</svg>
+								<span ref={progressContent}></span>
+							</div>
 						</Swiper>
 					</div>
 					<div className={styles.promotion}>
