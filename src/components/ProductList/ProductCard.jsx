@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./ProductCard.module.scss";
 
-export const ProductCard = props => {
+export const ProductCard = (props) => {
 	const navigate = useNavigate();
 	const showProduct = () => {
 		navigate(`/product/${props.product.id}`);

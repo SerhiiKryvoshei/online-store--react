@@ -10,7 +10,7 @@ import svgBasket from "../../assets/images/basket.svg";
 
 import styles from "./Header.module.scss";
 
-const Header = props => {
+const Header = (props) => {
 	return (
 		<header className={styles.header}>
 			<div className={styles.top}>
