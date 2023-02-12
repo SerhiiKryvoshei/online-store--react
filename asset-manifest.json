@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-store--react/static/css/main.ff6c2046.css",
-    "main.js": "/online-store--react/static/js/main.769fdddd.js",
+    "main.css": "/online-store--react/static/css/main.27f47361.css",
+    "main.js": "/online-store--react/static/js/main.9225918f.js",
     "static/media/snowshoes02.png": "/online-store--react/static/media/snowshoes02.5fe040e06b7189a0590e.png",
     "static/media/banner01.jpg": "/online-store--react/static/media/banner01.e257ce7c28ee5d528908.jpg",
     "static/media/rover03.png": "/online-store--react/static/media/rover03.9cea6763532b72fad73b.png",
@@ -82,11 +82,11 @@
     "static/media/heart.svg": "/online-store--react/static/media/heart.75355df46857fd0012a7553164919e57.svg",
     "static/media/user.svg": "/online-store--react/static/media/user.95b79df76425f176ab324f413d400655.svg",
     "static/media/line.svg": "/online-store--react/static/media/line.def46be32adbe1713a7b.svg",
-    "main.ff6c2046.css.map": "/online-store--react/static/css/main.ff6c2046.css.map",
-    "main.769fdddd.js.map": "/online-store--react/static/js/main.769fdddd.js.map"
+    "main.27f47361.css.map": "/online-store--react/static/css/main.27f47361.css.map",
+    "main.9225918f.js.map": "/online-store--react/static/js/main.9225918f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff6c2046.css",
-    "static/js/main.769fdddd.js"
+    "static/css/main.27f47361.css",
+    "static/js/main.9225918f.js"
   ]
 }
