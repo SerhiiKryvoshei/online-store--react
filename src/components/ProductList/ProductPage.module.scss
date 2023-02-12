@@ -1,0 +1,50 @@
+@import "../../scss/variables.scss";
+@import "../../scss/fonts.scss";
+@import "../../scss/mixins/mixins.scss";
+
+.inner {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 80px;
+
+	.img-box {
+		.pic {
+			width: 100%;
+			max-height: 190px;
+			object-fit: contain;
+		}
+
+		.price {
+			text-align: center;
+			margin: 23px 0;
+			position: relative;
+			&::after {
+				content: "";
+				background-image: url(../../assets/images/hryvnia/uahsign-blue.svg);
+				position: absolute;
+				width: 15px;
+				height: 18px;
+			}
+		}
+		.text {
+			font-weight: 400;
+			font-size: 15px;
+			color: $focusColor;
+		}
+	}
+
+	.content {
+		width: 570px;
+
+		.title {
+			font-weight: 700;
+			font-size: 30px;
+			// text-align: center;
+		}
+
+		button {
+			border: none;
+			background-color: inherit;
+		}
+	}
+}

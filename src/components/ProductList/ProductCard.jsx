@@ -6,6 +6,7 @@ export const ProductCard = (props) => {
 	const showProduct = () => {
 		navigate(`/product/${props.product.id}`);
 	};
+
 	return (
 		<div className={styles.card}>
 			{/* <p className={styles["hover-text"]}>подивитися товар</p> */}
