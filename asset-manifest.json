@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/online-store--react/static/css/main.27f47361.css",
-    "main.js": "/online-store--react/static/js/main.9225918f.js",
+    "main.js": "/online-store--react/static/js/main.cbf81a54.js",
     "static/media/snowshoes02.png": "/online-store--react/static/media/snowshoes02.5fe040e06b7189a0590e.png",
     "static/media/banner01.jpg": "/online-store--react/static/media/banner01.e257ce7c28ee5d528908.jpg",
     "static/media/rover03.png": "/online-store--react/static/media/rover03.9cea6763532b72fad73b.png",
@@ -83,10 +83,10 @@
     "static/media/user.svg": "/online-store--react/static/media/user.95b79df76425f176ab324f413d400655.svg",
     "static/media/line.svg": "/online-store--react/static/media/line.def46be32adbe1713a7b.svg",
     "main.27f47361.css.map": "/online-store--react/static/css/main.27f47361.css.map",
-    "main.9225918f.js.map": "/online-store--react/static/js/main.9225918f.js.map"
+    "main.cbf81a54.js.map": "/online-store--react/static/js/main.cbf81a54.js.map"
   },
   "entrypoints": [
     "static/css/main.27f47361.css",
-    "static/js/main.9225918f.js"
+    "static/js/main.cbf81a54.js"
   ]
 }
